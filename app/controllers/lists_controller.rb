@@ -50,3 +50,5 @@ class ListsController < ApplicationController
   end
 
 end
+
+# エラー解決の演習問題1　「""」ダブルコーテーションを消して読み込まれるようになる
