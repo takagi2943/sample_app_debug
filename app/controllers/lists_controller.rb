@@ -20,6 +20,7 @@ class ListsController < ApplicationController
   def update
     @list = List.find(params[:id])
     @list.update(list_params)
+    byebug
     redirect_to list_path(@list)
   end
 
